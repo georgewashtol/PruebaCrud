@@ -9,3 +9,7 @@ spring:
     password: tolbar12345
 server:
   port: 8282
+security:
+  oauth2:
+    resource:
+      filter-order: 3

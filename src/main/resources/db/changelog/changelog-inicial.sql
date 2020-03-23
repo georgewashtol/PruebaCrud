@@ -113,3 +113,16 @@ add column clave varchar(30) after documento;
 -- changeset Pepo:6
 alter table tipos_listas 
 RENAME COLUMN decsripcion TO descripcion;
+
+-- changeset Pepo:7
+create table usuario_prueba(
+	id int primary key,
+    username varchar(30) not null,
+    clave varchar(60) not null,
+    nombre_rol varchar(20) not null,
+    activo boolean not null
+);
+
+-- changeset Pepo:8
+-- comment: clave12345
+insert into usuario_prueba values (1,'jorgetest','$2a$10$FWDsbdYl161pKJuwxmV.uepc/2G.Mpmzn/8onGUXn6sk6XSUemL16','Administrador_global',true);

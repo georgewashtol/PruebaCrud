@@ -8,7 +8,6 @@ class PruebaCrudApplicationTests {
 
 	@Test
 	void contextLoads() {
-
 	}
 
 }
