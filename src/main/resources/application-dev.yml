@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:    
+    url: jdbc:mysql://localhost/prueba_crud?useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username : root
+    password: tolbar12345
+server:
+  port: 8282
